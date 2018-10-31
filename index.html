@@ -1,0 +1,20 @@
+<!-- Basic selector markup structure -->
+
+<div id="item_select" class="select-wrapper">
+  <div class="select-trigger" data-trigger="popup" data-target="#item_select">
+    {% include 'icon' with 'down' %}
+  </div>
+
+  <div class="select-options">
+    <input id="item_default" type="radio" name="item" value="" checked disabled>
+    <label for="item_default" data-close data-target="#item_select">Label</label>
+    <input id="item_one" type="radio" name="item" value="one">
+    <label for="item_one" data-close data-target="#item_select">One</label>
+    <input id="item_two" type="radio" name="item" value="two">
+    <label for="item_two" data-close data-target="#item_select">Two</label>
+    <input id="item_three" type="radio" name="item" value="three">
+    <label for="item_three" data-close data-target="#item_select">Three</label>
+    <input id="item_four" type="radio" name="item" value="four">
+    <label for="item_four" data-close data-target="#item_select">Four</label>
+  </div>
+</div>
